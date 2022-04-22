@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.menu-inicial {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.menu-colapse {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.caixa-opcoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 600px;
+}
+
+.item-caixa {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.capa {
+    height: 800px;
+    background-image: url('imagens/imagem-capa.webp');
+    background-size: cover;
+}
+
+.texto-capa {
+    color: white;
+    padding: 200px 0 0 20px;
+    text-align: center;
+}
+
+.texto-inicial {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subtexto-capa {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.digitar-cpf {
+    margin: 30px auto;
+    background-color: white;
+    height: 300px;
+    max-width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto-caixa {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 20px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.input-child {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margim-bottom: 5%;
+}
+
+.input-child label {
+    font-size: 12px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin-top: 13px;
+    transition: all 3.s ease-out;
+}
+
+.input-child input:focus + label {
+    font-size: 10px;
+    margin-top: 0;
+}
+
+fieldset {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-continuar {
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(135, 9, 173);
+}
+
+.cartao-credito {
+    padding-top: 30px;
+    padding-left: 25px;
+    line-height: 28px;
+}
+
+.titulo-credito {
+    color: rgb(135, 9, 173);
+}
+
+.texto-cartao {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.mais-credito {
+    font-weight: 600;
+    color: rgb(135, 9, 173);
+}
+
+.cartao-roxo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.ultravioleta {
+    background-color: rgb(212, 212, 212);
+    padding-top: 30px;
+    padding-left: 25px;
+    line-height: 28px;
+}
+
+.conta {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/*Informações*/
+
+.informacoes a {
+    color: white;
+}
+
+.informacoes a:hover {
+    color: white;
+}
+
+.informacoes-financeiras {
+    color: #FFFAFA;
+    padding-left: 25px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(imagens/mulhleres-juntas.webp);
+    background-size: cover;
+}
+
+.informacoes-comunidade {
+    color: #FFFAFA;
+    padding-left: 25px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(imagens/nu-comunidade.jpg);
+    background-size: cover;
+}
+
+.fala-nubank {
+    color: #FFFAFA;
+    padding-left: 25px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(imagens/fala-nu.webp);
+    background-size: cover;
+}
+
+
+/*Rodapé*/
+
+footer{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.opcoes-rodape {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    text-decoration: none; 
+    color: rgb(135, 9, 173);  
+}
+
+.endereco {
+    border-top: 1px solid gray
+}
+
+address {
+    margin-left: 25px;
+}
+
+.redes-sociais {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais > img {
+    padding-left: 15px;
+}

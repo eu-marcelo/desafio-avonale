@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Nubank - Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagens/logo-nu.png">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar navbar-expand-lg navbar-light bg-light  menu-inicial" >
+            <img src="imagens/logo-nu.png" height="55px" alt="logo-nu">
+
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse menu-colapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Página Inicial <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Para Você
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="caixa-opcoes">
+                                    <div>
+                                        <p>Nubank</p>
+                                        <a class="dropdown-item item-caixa" href="#">Cartão de Crédito</a>
+                                        <a class="dropdown-item item-caixa" href="#">Conta do Nubank</a>
+                                        <a class="dropdown-item item-caixa" href="#">Tudo Sobre Pix</a>
+                                    </div>
+                                    <div>
+                                        <p>Nubank Ultravioleta</p>
+                                        <a class="dropdown-item item-caixa" href="#">Cartão de Crédito</a>
+                                    </div>
+                                    <div>
+                                        <p>Outros Produtos</p>
+                                        <a class="dropdown-item item-caixa" href="#">Empréstimo Pessoal</a>
+                                        <a class="dropdown-item item-caixa" href="#">Seguro de Vida</a>
+                                        <a class="dropdown-item item-caixa" href="#">Seguro de Celular</a>
+                                        <a class="dropdown-item item-caixa" href="#">Investimentos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Para Seu Negócio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="">
+                                    <p>Nubank Pj</p>
+                                    <a class="dropdown-item item-caixa" href="#">Conta PJ</a>
+                                    <a class="dropdown-item item-caixa" href="#">Cartão de Crédito</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                O  Nubank
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="caixa-opcoes">
+                                    <div>
+                                        <p>Sobre Nós</p>
+                                        <a class="dropdown-item item-caixa" href="#">O Nu</a>
+                                        <a class="dropdown-item item-caixa" href="#">Sala de Imprensa</a>
+                                        <a class="dropdown-item item-caixa" href="#">Carreiras</a>
+                                        <a class="dropdown-item item-caixa" href="#">Nu Impacto</a>
+                                        <a class="dropdown-item item-caixa" href="#">Investidores</a>
+                                    </div>
+                                    <div>
+                                        <p>Outros Canais</p>
+                                        <a class="dropdown-item item-caixa" href="#">Blog</a>
+                                        <a class="dropdown-item item-caixa" href="#">Newsletter</a>
+                                        <a class="dropdown-item item-caixa" href="#">Comunidade</a>
+                                        <a class="dropdown-item item-caixa" href="#">InvestNews</a>
+                                    </div>
+                                    <div>
+                                        <p>Nubank Pelo Mundo</p>
+                                        <a class="dropdown-item item-caixa" href="#">México</a>
+                                        <a class="dropdown-item item-caixa" href="#">Colômbia</a>
+                                        <a class="dropdown-item item-caixa" href="#">Argentina</a>
+                                        <a class="dropdown-item item-caixa" href="#">Nu Internacional</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perguntas</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+        </nav>
+
+        <section class="capa">
+           <div class="texto-capa">
+                <span class="texto-inicial">O futuro é a razão que a gente faz planos.</span>
+                <p class="subtexto-capa">Escolha o futuro. Comece a controlar melhor sua vida financeira com o Nubank</p>
+           </div>
+            
+                <div class="digitar-cpf">
+                    <p class="texto-caixa">Peça sua conta e cartão de crédito do Nubank</p>
+                    <fieldset class="caixa-cpf">
+                        <div class="input-child">
+                            <input type="text" name="cpf" placeholder="">
+                            <label for="cpf">Digite seu CPF</label>
+                        </div>
+                        <div class="underline"></div>
+                        <input type="submit" class="botao-continuar" value="Continuar &#10140;">
+                    </fieldset>
+                </div>
+        </section>
+
+        <section class="cartao-credito">
+            <div class="texto-cartao">
+                <span class="titulo-credito">Cartão de Crédito</span>
+                <p>Pode chamar ele de roxinho. Além disso, pode chamar ele de moderno, gratuito e prático também.</P>
+            </div>
+
+            <a href="#"><span class="mais-credito">Saiba mais &rarr;</span></a>
+            
+            <div class="cartao-roxo">
+                <img src="imagens/cartao-nubank.webp" height="300px" alt="cartão nubank">
+            </div>
+        </section>
+
+        <section class="ultravioleta">
+            <div>
+                <div>
+                    <div class="texto-cartao">
+                        <span class="titulo-credito">Nubank Ultravioleta</span>
+                        <p>O cartão pensado para quem quer ver além.</p>
+                    </div>
+                    
+                    <a href="#"><span class="mais-credito">Saiba mais &rarr;</span></a>
+                    
+                    <div class="cartao-roxo">
+                        <img src="imagens/nubank-ultravioleta.webp" height="300px" alt="cartão ultravileta">
+                    </div>
+                </div>
+
+                <div class="conta">
+                    <div class="texto-cartao">
+                        <span class="titulo-credito">Conta do Nubank</span>
+                        <P>A conta que vai levar você ao controle da sua vida financeira</P>
+                    </div>
+                    <a href="#"><span class="mais-credito">Sem tarifas e sem complicações &rarr;</span></a>
+                    <div class="cartao-roxo">
+                        <img src="imagens/tela-nubank.webp" height="350px" alt="tela inicial do app">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="informacoes">
+            <div class="informacoes-financeiras">
+                <div class="texto-cartao">
+                    <p>Nós acreditamos que só uma pessoa pode ter controle sobre sua vida financeira: você.</p>
+                </div>
+                <a href="#"><span>Saiba mais lobre como fazemos isso. &rarr;</span></a>
+            </div>
+
+            <div class="informacoes-comunidade">
+                <div class="texto-cartao">
+                    <p>A comunidade oficial do Nubank para você tirar dúvidas e compartilhar ideias.</p>
+                </div>
+                <a href="#"><span>Faça parte &rarr;</span></a>
+            </div>
+            
+            <div class="fala-nubank">
+                <div class="texto-cartao">
+                    <p>Muita informação e conteúdo para você encontrar a melhor versão da sua vida</p>
+                </div>
+                <a href="#"><span>Fala, Nubank &#8599;</span></a>
+            </div>
+            
+        </section>
+
+        <footer>
+            <div class="opcoes-rodape">
+                <div class="sobre-nubank">
+                    <h5>Nubank</h5>
+                        <ul>
+                            <a href="#"><li>Sobre nós</li></a>
+                            <a href="#"><li>Carreiras</li></a>
+                            <a href="#"><li>Perguntas Frequentes</li></a>
+                            <a href="#"><li>Contato</li></a>
+                            <a href="#"><li>Imprensa</li></a>
+                            <a href=""><li>Nu Impacto &#10138;</li></a>
+                            <a href=""><li>Investidores&#10138;</li></a>
+                        </ul>
+                </div>
+                <div class="produtos">
+                    <h5>Produtos</h5>
+                    <ul>
+                        <a href="#"><li>Conta Digital</li></a>
+                        <a href="#"><li>Cartão de Crédito</li></a>
+                        <a href="#"><li>Nubank Ultravioleta</li></a>
+                        <a href="#"><li>Empréstimo</li></a>
+                        <a href="#"><li>Conta PJ</li></a>
+                        <a href="#"><li>Cartão de Crédito PJ</li></a>
+                        <a href="#"><li>Nubank Vida</li></a>
+                        <a href="#"><li>Investimento</li></a>
+                    </ul>
+                </div>
+                <div class="explore">
+                    <h5>Explore</h5>
+                    <ul>
+                        <a href="#"><li>Comunidade &#10138;</li></a>
+                        <a href="#"><li>Blog &#10138;</li></a>
+                        <a href="#"><li>InvestNews &#10138;</li></a>
+                        <a href="#"><li>Newsletter &#10138;</li></a>
+                        <a href="#"><li>México &#10138;</li></a>
+                        <a href="#"><li>Argentina &#10138;</li></a>
+                        <a href="#"><li>Colômbia &#10138;</li></a>
+                    </ul>
+                </div>
+                <div class="veja-tambem">
+                    <h5>Veja Também</h5>
+                    <ul>
+                        <li><a href="#"><span>Auxílio Emergencial e FGTS &rarr;</span></a></li>
+                        <li><a href="#"><span>Tudo sobre o Pix &rarr;</span></a></li>
+                    </ul>
+                </div>
+                <div class="transparencia">
+                    <h5>Transparência</h5>
+                    <ul>
+                        <a href="#"><li>Política de Privacidade</li></a>
+                        <a href="#"><li>Política de Compliance</li></a>
+                        <a href="#"><li>Contratos</li></a>
+                        <a href="#"><li>Política de Segurança</li></a>
+                        <a href="#"><li>Relatórios Financeiros</li></a>
+                        <a href="#"><li>Ética e Compliance</li></a>
+                        <a href="#"><li>Dados Abertos</li></a>
+                        <a href="#"><li>SCR</li></a>
+                        <a href="#"><li>Convenção de Boletos</li></a>
+                    </ul>
+                </div>
+                <div class="ouvidoria">
+                    <h5>Ouvidoria</h5>
+                    <ul>
+                        <li>0800 887 0463</li>
+                        <li>ouvidoria@nubank.com.br</li>
+                        <li>Atendimento das 9h às 18h (dias úteis)</li>
+                    </ul>
+                </div>
+                <div class="fale-conosco">
+                    <h5>Fale com a gente</h5>
+                    <ul>
+                        <li>0800 608 6236</li>
+                        <li>meajuda@nubank.com.br</li>
+                        <li>Atendimento 24h</li>
+                    </ul>
+                </div>
+                <div class="baixar">
+                    <h5>Baixe o app</h5>
+                    <div class="redes-sociais">
+                        <img src="imagens/google-play.png" width="150px" height="40px" alt="">
+                        <img src="imagens/apple-store.png" width="150px" height="40px" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="endereco">
+                
+                <img src="imagens/logo-favicon.png" width="50px"  height="50px" style="margin: 15px 0 10px 25px; border-radius: 5px;" alt="logo nubank">
+
+                <address>
+                   &#169; 2021 Nu Pagamentos S.A - Instituição de Pagamento. 18.236.120/0001-58
+                    Rua Capote Valente, 39 - São Paulo,
+                    SP - 05409-000
+                </address>
+
+                <div class="redes-sociais">
+                    <img src="imagens/facebook.png" alt="logo facebook">
+                    <img src="imagens/instagram.png" alt="logo facebook">
+                    <img src="imagens/linkedin.png" alt="logo facebook">
+                    <img src="imagens/youtube.png" alt="logo facebook">
+                    <img src="imagens/twitter.png" alt="logo facebook">   
+                </div>
+            </div>
+
+        </footer>
+        
+    </div> <!--Fim Container-->
+
+        <script src="main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>
